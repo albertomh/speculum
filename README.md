@@ -1,7 +1,8 @@
 <!-- markdownlint-disable MD041 -->
 ![speculum logo](speculum.svg "speculum")
 
-Custom Bootstrap CSS for DepositDuck.
+Frontend toolkit for DepositDuck.  
+Custom Bootstrap 5, bootstrap-icons and HTMX.
 
 ## Develop
 

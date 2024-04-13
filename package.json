@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"build": "cleancss -o path/to/output.min.css path/to/input.css"
+		"build": "sass ./scss/main.scss ./css/main.css && cleancss -o ./css/main.min.css ./css/main.css"
 	},
 	"dependencies": {
 		"bootstrap": "~5.3.3",

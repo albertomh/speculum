@@ -13,6 +13,15 @@ Custom Bootstrap CSS for DepositDuck.
 To develop speculum the following must be available locally:
 
 - [pnpm](https://pnpm.io/installation)
+- [clean-css-cli](https://www.npmjs.com/package/clean-css-cli)  
+  Must be installed globally: `pnpm i clean-css-cli -g`
+
+### Quickstart: run locally
+
+```sh
+# compile SCSS to CSS and minify
+pnpm build
+```
 
 ### Development workflow
 

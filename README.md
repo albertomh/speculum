@@ -13,7 +13,6 @@ Custom Bootstrap CSS for DepositDuck.
 To develop speculum the following must be available locally:
 
 - [pnpm](https://pnpm.io/installation)
-- [Dart Sass](https://formulae.brew.sh/formula/node-sass)
 
 ### Development workflow
 

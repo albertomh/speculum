@@ -1,4 +1,5 @@
-# speculum
+<!-- markdownlint-disable MD041 -->
+![speculum logo](speculum.svg "speculum")
 
 Custom Bootstrap CSS for DepositDuck.
 
@@ -45,6 +46,12 @@ pre-commit install
 Please follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 guidelines when writing commit messages.
 `commitlint` is enabled as a pre-commit hook. Valid commit types are defined in `.commitlintrc.yaml`.
+
+## Deploy
+
+### Cut a release
+
+TODO:
 
 ---
 

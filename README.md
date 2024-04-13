@@ -28,6 +28,8 @@ pnpm build
 
 ### Development workflow
 
+Follows the example laid out by https://github.com/twbs/examples/tree/main/sass-js
+
 This repo follows trunk-based development. This means:
 
 - the `main` branch should always be in a releasable state

@@ -1,5 +1,9 @@
 {
+	"scripts": {
+		"build": "cleancss -o path/to/output.min.css path/to/input.css"
+	},
 	"dependencies": {
-		"bootstrap": "5.3.3"
+		"bootstrap": "~5.3.3",
+		"sass": "^1.75.0"
 	}
 }

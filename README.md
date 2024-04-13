@@ -19,6 +19,9 @@ To develop speculum the following must be available locally:
 ### Quickstart: run locally
 
 ```sh
+# install dependencies
+pnpm install
+
 # compile SCSS to CSS and minify
 pnpm build
 ```

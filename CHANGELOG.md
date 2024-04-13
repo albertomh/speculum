@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Bootstrap icons 1.11.
+- Bootstrap Icons 1.11.
 
 ### Fixed
 

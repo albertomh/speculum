@@ -53,6 +53,11 @@ guidelines when writing commit messages.
 
 TODO:
 
+## What's in a name?
+
+[Speculum feathers](https://en.wikipedia.org/wiki/Speculum_feathers) give some ducks their
+characteristic iridiscence.
+
 ---
 
 &copy; 2024 Alberto MH  

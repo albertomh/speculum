@@ -1,10 +1,13 @@
 {
 	"scripts": {
-		"compileCss": "sass ./scss/main.scss ./css/main.css ",
-		"minify": "cleancss -o ./css/main.min.css ./css/main.css",
-		"_copyJsBundle": "cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js ./dist/js/",
+		"compile": "sass ./scss/main.scss ./css/main.css",
+		"compileIcons": "sass ./scss/bootstrap-icons.scss ./css/bootstrap-icons.css",
+		"minify": "cleancss -o ./dist/css/main.min.css ./css/main.css",
+		"minifyIcons": "cleancss -o ./dist/css/bootstrap-icons.min.css ./css/bootstrap-icons.css",
+		"copyJsBundle": "cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js ./dist/js/",
+		"copyIconsFonts": "cp -r ./node_modules/bootstrap-icons/font/fonts/ ./dist/css/fonts/",
 
-		"build": "pnpm compileCss && pnpm minify && mv ./css/main.min.css ./dist/css/ && pnpm _copyJsBundle"
+		"build": "pnpm compile && pnpm minify && pnpm copyJsBundle && pnpm compileIcons && pnpm minifyIcons && pnpm copyIconsFonts"
 	},
 	"dependencies": {
 		"bootstrap": "~5.3.3",

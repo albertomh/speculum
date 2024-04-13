@@ -1,6 +1,10 @@
 {
 	"scripts": {
-		"build": "sass ./scss/main.scss ./css/main.css && cleancss -o ./css/main.min.css ./css/main.css"
+		"compileCss": "sass ./scss/main.scss ./css/main.css ",
+		"minify": "cleancss -o ./css/main.min.css ./css/main.css",
+		"_copyJsBundle": "cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js ./dist/js/",
+
+		"build": "pnpm compileCss && pnpm minify && mv ./css/main.min.css ./dist/css/ && pnpm _copyJsBundle"
 	},
 	"dependencies": {
 		"bootstrap": "~5.3.3",

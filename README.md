@@ -50,6 +50,9 @@ guidelines when writing commit messages.
 
 ## Deploy
 
+The contents of `dist/` are currently hosted in a public Cloudflare R2 bucket with CORS
+enabled to allow GET from `localhost:8000`.
+
 ### Cut a release
 
 TODO:

@@ -7,19 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### [1.3.0] - 2024-04-16
+## [1.3.0] - 2024-04-16
 
 ### Added
 
 - Favicons and SVG images.
 
-### [1.2.0] - 2024-04-13
+## [1.2.0] - 2024-04-13
 
 ### Added
 
 - HTMX 1.9.11.
 
-### [1.1.0] - 2024-04-13
+## [1.1.0] - 2024-04-13
 
 ### Added
 

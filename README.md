@@ -2,13 +2,15 @@
 ![speculum logo](speculum.svg "speculum")
 
 Frontend toolkit for DepositDuck.  
-Custom Bootstrap 5, bootstrap-icons and HTMX.
+Bootstrap 5 customised to use the project's palette, bootstrap-icons and HTMX.
 
 ## Develop
 
-[![bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?logo=bootstrap&logoColor=white)](https://github.com/twbs/bootstrap)
-[![sass](https://img.shields.io/badge/Dart_Sass-cf649b?logo=sass&logoColor=white)](https://sass-lang.com/dart-sass/)
 [![pnpm](https://img.shields.io/badge/pnpm-4e4e4e?logo=pnpm&logoColor=f69220)](https://sass-lang.com/dart-sass/)
+[![bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?logo=bootstrap&logoColor=white)](https://github.com/twbs/bootstrap)
+[![bootstrap-icons](https://img.shields.io/badge/Bootstrap_Icons-ffffff?logo=bootstrap&logoColor=7952B3)](https://github.com/twbs/bootstrap)
+[![sass](https://img.shields.io/badge/Dart_Sass-cf649b?logo=sass&logoColor=white)](https://sass-lang.com/dart-sass/)
+[![htmx](https://img.shields.io/badge/htmx-white?logo=htmx&logoColor=3366CC)](https://github.com/bigskysoftware/htmx)
 
 ### Prerequisites
 
@@ -24,13 +26,14 @@ To develop speculum the following must be available locally:
 # install dependencies
 pnpm install
 
-# compile SCSS to CSS and minify
+# compile SCSS to CSS and minify, placing
+# output in the `dist/` directory
 pnpm build
 ```
 
 ### Development workflow
 
-Follows the example laid out by https://github.com/twbs/examples/tree/main/sass-js
+Follows the example laid out in [twbs/examples/tree/main/sass-js](https://github.com/twbs/examples/tree/main/sass-js).
 
 This repo follows trunk-based development. This means:
 
@@ -53,9 +56,36 @@ guidelines when writing commit messages.
 The contents of `dist/` are currently hosted in a public Cloudflare R2 bucket with CORS
 enabled to allow GET from `localhost:8000`.
 
+### Cloudflare R2 CORS policy
+
+NB. both `0.0.0.0` and `localhost` must be specified due to a quirk in how font-fetching works.
+
+```json
+[
+  {
+    "AllowedOrigins": [
+      "http://0.0.0.0:8000",
+      "http://localhost:8000"
+    ],
+    "AllowedMethods": [
+      "GET"
+    ]
+  }
+]
+```
+
 ### Cut a release
 
-TODO:
+TODO: automate this!
+
+```sh
+# 1. Build the latest version:
+pnpm build
+
+# 2. Manually transfer the contents of `dist/`to the Cloudflare
+#    R2 bucket. This should be under `/static/speculum@M.m.p/`
+#    where `M.m.p` is a semver tag.
+```
 
 ## What's in a name?
 

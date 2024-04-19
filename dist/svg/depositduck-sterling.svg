@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25)"
-   sodipodi:docname="favicon.svg"
+   sodipodi:docname="depositduck-sterling.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,14 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="8.0932837"
-     inkscape:cx="10.502536"
+     inkscape:cx="10.564315"
      inkscape:cy="17.792531"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="0"
      inkscape:window-y="325"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g1"
+     showgrid="false" />
   <defs
      id="defs1" />
   <g
@@ -42,9 +43,10 @@
        id="g1"
        transform="translate(1.2182956,-5.5073731e-5)">
       <path
-         style="fill:#f9f9f9;stroke-width:0.264583"
+         style="fill:#ffffff;stroke-width:0.264583"
          d="M 10.820958,3.3345551 9.1536805,2.4518787 7.9767786,0.98075148 6.5056514,0.45768402 5.1979829,0.42499232 3.8249307,0.94805975 2.3538036,2.4845704 1.7980444,4.478765 V 5.0672161 L 0.58845089,5.2960579 0.52306746,6.4729597 0.6538343,7.2248693 2.1576532,7.3229443 v 1.274977 l -0.5230674,1.6345857 -0.88267633,0.94806 0.84998463,1.078826 0.5884508,0.653835 1.6999693,-0.817293 2.8114876,0.555759 2.0922697,0.130767 L 10.265199,11.572867 10.624808,9.8075148 9.4152142,10.330582 7.1921774,9.9709733 5.7210502,8.4344628 5.2633662,7.2902526 H 7.4210195 L 7.8133201,6.6691099 7.6498616,5.4595164 5.2633662,5.1979829 5.8191254,3.8576226 6.7344935,3.6287805 8.4344628,4.0537727 10.199815,3.9883894 10.722883,3.6941638 Z"
-         id="path1" />
+         id="path1"
+         sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccc" />
       <path
          id="path2-8"
          style="fill:#9e71fe;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"

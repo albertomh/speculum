@@ -34,7 +34,6 @@ $dark: #000000;
 $bootstrap-blue: #0d6efd;
 $link-color: $bootstrap-blue;
 
-
 // Required
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/variables-dark";
@@ -58,7 +57,7 @@ $link-color: $bootstrap-blue;
 @import "../node_modules/bootstrap/scss/navbar"; // Requires nav
 @import "../node_modules/bootstrap/scss/card";
 // @import "../node_modules/bootstrap/scss/breadcrumb";
-// @import "../node_modules/bootstrap/scss/accordion";
+@import "../node_modules/bootstrap/scss/accordion";
 // @import "../node_modules/bootstrap/scss/pagination";
 // @import "../node_modules/bootstrap/scss/badge";
 // @import "../node_modules/bootstrap/scss/alert";

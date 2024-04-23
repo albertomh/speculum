@@ -33,6 +33,9 @@ pnpm build
 
 ### Development workflow
 
+TODO: add htmx to package.json
+TODO: document bumping dependency versions
+
 Follows the example laid out in [twbs/examples/tree/main/sass-js](https://github.com/twbs/examples/tree/main/sass-js).
 
 This repo follows trunk-based development. This means:
@@ -82,7 +85,11 @@ TODO: automate this!
 # 1. Build the latest version:
 pnpm build
 
-# 2. Manually transfer the contents of `dist/`to the Cloudflare
+# 2. Update CHANGELOG and commit.
+
+# 3. Tag and release in GitHub.
+
+# 4. Manually transfer the contents of `dist/`to the Cloudflare
 #    R2 bucket. This should be under `/static/speculum@M.m.p/`
 #    where `M.m.p` is a semver tag.
 ```

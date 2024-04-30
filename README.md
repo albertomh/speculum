@@ -11,6 +11,7 @@ Bootstrap 5 customised to use the project's palette, bootstrap-icons and HTMX.
 [![bootstrap-icons](https://img.shields.io/badge/Bootstrap_Icons-ffffff?logo=bootstrap&logoColor=7952B3)](https://github.com/twbs/bootstrap)
 [![sass](https://img.shields.io/badge/Dart_Sass-cf649b?logo=sass&logoColor=white)](https://sass-lang.com/dart-sass/)
 [![htmx](https://img.shields.io/badge/htmx-white?logo=htmx&logoColor=3366CC)](https://github.com/bigskysoftware/htmx)
+[![Alpine.js](https://img.shields.io/badge/Alpine.js-2D3442?logo=alpinedotjs&logoColor=#8BC0D0)](https://alpinejs.dev/)
 
 ### Prerequisites
 
@@ -33,7 +34,7 @@ pnpm build
 
 ### Development workflow
 
-TODO: add htmx to package.json
+TODO: add htmx & alpine.js to package.json
 TODO: document bumping dependency versions
 
 Follows the example laid out in [twbs/examples/tree/main/sass-js](https://github.com/twbs/examples/tree/main/sass-js).
